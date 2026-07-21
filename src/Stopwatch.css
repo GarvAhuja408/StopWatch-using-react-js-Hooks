@@ -1,0 +1,29 @@
+.watch {
+    margin: 140px 200px 0;
+    background-color: rgb(243, 8, 184);
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.watch-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.watch-btn:hover {
+    background-color: darkred;
+}
+

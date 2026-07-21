@@ -1,4 +1,5 @@
 import { useState,useRef } from "react";
+import "./Stopwatch.css";
 
 export default function(){
 
@@ -25,12 +26,12 @@ export default function(){
     }
 
     return(
-        <div>
+        <div className="watch">
             <p>{time}</p>
 
-            <button onClick={handleStart}>Start</button>
-            <button onClick={handleStop}>Stop</button>
-            <button onClick={handleReset}>Reset</button>
+            <button className="watch-btn" onClick={handleStart}>Start</button>
+            <button className="watch-btn" onClick={handleStop}>Stop</button>
+            <button className="watch-btn" onClick={handleReset}>Reset</button>
         </div>
     )
 }
